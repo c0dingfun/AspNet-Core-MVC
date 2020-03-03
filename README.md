@@ -1,6 +1,6 @@
 # AspNet-Core-MVC
 
-This project is meant to exercise the following using dotNet core 3.1: 
+This project is meant to capture the essence the following using dotNet core 3.1: 
 
 1. ASP.Net Core MVC and out of box Authentication/Authorization
 2. Dependency Injection via IOC Container
