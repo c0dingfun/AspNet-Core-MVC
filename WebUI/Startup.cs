@@ -12,6 +12,7 @@ using WebUI.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Repositories.Contexts;
 
 namespace WebUI
 {
@@ -32,6 +33,12 @@ namespace WebUI
                     Configuration.GetConnectionString("AuthenticationDBConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            // HH: Prepare the IOC container for injection of the DbContext
+            services.AddDbContext<CollegeDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("CollegeDBConnection")));
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
