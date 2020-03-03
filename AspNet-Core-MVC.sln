@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.ViewModels", "4.ViewModels", "{996C602E-AFA4-4BA5-8386-593AC4910956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DomainModels", "3.DomainModels", "{5F8C549A-655A-4C40-AEEA-7A7BC745EF0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Repositories", "2.Repositories", "{9EB6E8A9-B411-4754-88A5-C1AEAD7AB26E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.IOCContainer", "1.IOCContainer", "{0548E458-88D0-46E9-B55C-EAF2DF1DA5D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.WebUI", "5.WebUI", "{45CF8062-A689-48B8-A624-DDC4E03B238A}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AAAF9BB-E7A7-4E44-A724-169923C1E50D}
+	EndGlobalSection
+EndGlobal
