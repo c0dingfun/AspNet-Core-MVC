@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.IOCContainer", "1.IOCCont
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.WebUI", "5.WebUI", "{45CF8062-A689-48B8-A624-DDC4E03B238A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{0E0EBB9F-B309-43B3-8785-81FA9AFB7454}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E0EBB9F-B309-43B3-8785-81FA9AFB7454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0EBB9F-B309-43B3-8785-81FA9AFB7454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0EBB9F-B309-43B3-8785-81FA9AFB7454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0EBB9F-B309-43B3-8785-81FA9AFB7454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E0EBB9F-B309-43B3-8785-81FA9AFB7454} = {45CF8062-A689-48B8-A624-DDC4E03B238A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AAAF9BB-E7A7-4E44-A724-169923C1E50D}
