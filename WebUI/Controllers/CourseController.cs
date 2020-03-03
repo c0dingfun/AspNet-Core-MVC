@@ -19,8 +19,6 @@ namespace WebUI.Controllers
         {
             mService = service;
         }
-        
-
 
         // GET: /<controller>/
         public IActionResult Index()

@@ -11,9 +11,9 @@ namespace ViewModelServices.Services
     {
         private readonly ICourseRepository mRepository;
 
-        public CourseViewModelService(ICourseRepository repostory)
+        public CourseViewModelService(ICourseRepository repository)
         {
-            mRepository = repostory;
+            mRepository = repository;
         }
 
 
