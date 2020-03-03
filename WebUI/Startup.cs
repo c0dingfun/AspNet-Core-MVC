@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Repositories.Contexts;
+using IOCContainer;
 
 namespace WebUI
 {
@@ -38,6 +39,8 @@ namespace WebUI
             services.AddDbContext<CollegeDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("CollegeDBConnection")));
+
+            DependencyContainer.RegisterServices(services);
 
             services.AddControllersWithViews();
             services.AddRazorPages();

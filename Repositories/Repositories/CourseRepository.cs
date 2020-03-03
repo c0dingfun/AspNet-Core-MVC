@@ -18,7 +18,7 @@ namespace Repositories.Repositories
         }
         public IEnumerable<Course> GetCourses()
         {
-            throw new NotImplementedException();
+            return mDbContext.Courses;
         }
     }
 }

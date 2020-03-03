@@ -16,7 +16,14 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\IOCContainer\IOCContainer.csproj" />
     <ProjectReference Include="..\Repositories\Repositories.csproj" />
+    <ProjectReference Include="..\ViewModelServices\ViewModelServices.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
