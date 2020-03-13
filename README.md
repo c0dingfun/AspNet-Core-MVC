@@ -152,8 +152,16 @@ This project is meant to capture the essence the following using dotNet core 3.1
 8. Do migration to setup Database and Tables, for each DbContext, via the Code First style:
 
     - setup the connection string in the appsetting.json file
+
     - add-migration initmigration -Context CollegeDbContext
     - update-database -Context CollegeDbContext
+
+- Note: To remove last migration
+
+```iecst
+PM> update-database -Migration 0 -Context CollegeDbContext
+PM> remove-migration -Context CollegeDbContext
+```
 
 ## Summary
 
